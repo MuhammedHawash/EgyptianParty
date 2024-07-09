@@ -1,0 +1,122 @@
+
+
+
+#home{
+background-image:linear-gradient(to right,rgba(214, 46, 51 , 0.6) ,rgba(214, 46, 51 , 0.6))
+, url(../images/party\ head.jpeg);
+width: 100%;
+height: 660px;
+background-repeat: no-repeat;
+background-position: center center;
+background-size: 100% 100%;
+color:white;
+}
+
+.home-menu
+{
+  width: 0px;
+  height: 100%;
+  background-color: black;
+  position: fixed;
+  z-index: 1;
+  top: 0;
+  left: 0;
+  transition: all 0.5s;
+  overflow: hidden;
+}
+.home-menu a 
+{
+  color:white;
+  text-decoration: none;
+  font-size: 25px;
+  padding: 20px 8px 20px 32px;
+  transition: all 0.3s;
+  
+}
+.home-menu .close-button
+{
+  right: 25px;
+  
+}
+.home-menu a:hover
+{
+
+  color:  rgba(214, 46, 51 , 0.4);
+}
+.open-button
+{
+  cursor: pointer;
+  left: 0px;
+  
+}
+.close-button-div{
+  transition: all 0.5;
+}
+
+/*********************************************************/
+
+
+#singers{
+  margin-top: 100px;
+  border-radius: 10px;
+}
+.singer{
+  cursor: pointer;
+}
+.singer-details
+{
+  display: none;
+  padding: 10px;
+  background-color: #ccc;
+}
+
+/*******************************************************/
+#counter{
+  margin-top: 100px;
+  background-image:linear-gradient(to right,rgba(214, 46, 51, 0.6) ,rgba(214, 46, 51 , 0.6))
+, url(../images/barrso-joint-us-1.jpg);
+background-repeat: no-repeat;
+background-position: center center;
+background-size: 100% 100%;
+position: relative;
+min-height: 330px;
+width: 100%;
+
+}
+
+.inner{
+  margin-top: 100px;
+  padding: 50px;
+  border: 1px solid #FFF;
+  font-weight: 500;
+  font-size: 30px;
+  min-height: 100px;
+  min-width: 260px;
+}
+
+/**********************************************************************/
+
+#contact{
+  margin-top: 100px;
+}
+
+
+.social-icons a{
+  text-decoration: none;
+  color: #595C5F;
+  border: 1px solid gray;
+  padding: 8px 2px ;
+  margin:10px 5px;
+  
+}
+.social-icons a:hover
+{
+  background-color: #D62E33;
+  color: white;
+  border: 1px solid transparent;
+}
+
+#contact textarea
+{
+  height: 200px;
+}
